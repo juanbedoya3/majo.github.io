@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Zeen by Sport - Ropa deportiva de alto rendimiento con estilo">
+    <title>Zeen by Sport - Ropa Deportiva</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* Header */
+        header {
+            background-color: #1e1e1e;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+            font-weight: bold;
+        }
+
+        header nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        /* Imagen de portada */
+        .hero {
+            background-image: url('https://via.placeholder.com/1600x600'); /* Reemplaza por una imagen de alta calidad */
+            background-size: cover;
+            background-position: center;
+            height: 600px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+        }
+
+        .hero h2 {
+            font-size: 48px;
+            margin: 0;
+            font-weight: bold;
+        }
+
+        .btn-primary {
+            background-color: #00b894;
+            padding: 15px 30px;
+            color: white;
+            text-transform: uppercase;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        .btn-primary:hover {
+            background-color: #098b73;
+        }
+
+        /* Secciones */
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .section-title {
+            font-size: 36px;
+            color: #333;
+        }
+
+        .product-grid {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .product {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            padding: 20px;
+        }
+
+        .product img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .product h3 {
+            font-size: 24px;
+            color: #333;
+        }
+
+        .product p {
+            color: #555;
+            font-size: 16px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #1e1e1e;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer .social-icons i {
+            font-size: 24px;
+            margin: 0 15px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .product-grid {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .hero h2 {
+                font-size: 36px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Zeen by Sport</h1>
+        <nav>
+            <a href="#coleccion">Colección</a>
+            <a href="#ofertas">Ofertas</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- Imagen de portada -->
+    <div class="hero">
+        <div>
+            <h2>Rinde con Estilo</h2>
+            <a href="#coleccion" class="btn-primary">Compra Ahora</a>
+        </div>
+    </div>
+
+    <!-- Sección de Colección -->
+    <section id="coleccion">
+        <h2 class="section-title">Nuestra Colección</h2>
+        <p>Ropa deportiva de alto rendimiento y estilo.</p>
+
+        <div class="product-grid">
+            <div class="product">
+                <img src="https://via.placeholder.com/250" alt="Leggings">
+                <h3>Leggings de Entrenamiento</h3>
+                <p>Confort y soporte para tu actividad.</p>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/250" alt="Camiseta">
+                <h3>Camiseta de Compresión</h3>
+                <p>Rinde al máximo con la máxima comodidad.</p>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/250" alt="Chaqueta">
+                <h3>Chaqueta Deportiva</h3>
+                <p>Ligereza y protección en todo momento.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Beneficios -->
+    <section>
+        <h2 class="section-title">Beneficios de Zeen by Sport</h2>
+        <p>Disfruta de la combinación perfecta entre rendimiento y estilo.</p>
+        <ul>
+            <li><strong>Tecnología Anti-humedad</strong>: Mantente seco durante todo el entrenamiento.</li>
+            <li><strong>Diseño Ergonómico</strong>: Máxima comodidad y libertad de movimiento.</li>
+            <li><strong>Materiales de Alta Calidad</strong>: Resistencia y durabilidad garantizadas.</li>
+            <li><strong>Estilo Moderno</strong>: Viste con actitud y energía.</li>
+        </ul>
+    </section>
+
+    <!-- Sección de Testimonios -->
+    <section>
+        <h2 class="section-title">Lo que dicen nuestros clientes</h2>
+        <p>"¡La ropa Zeen es increíble! Me siento más libre para entrenar y, además, es muy cómoda para mis actividades diarias." — Ana M.</p>
+        <p>"La calidad es espectacular, ¡y el estilo no tiene comparación!" — Carlos R.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contacto">
+        <p>&copy; 2024 Zeen by Sport | Todos los derechos reservados</p>
+        <div class="social-icons">
+            <a href="https://facebook.com" target="_blank">Facebook</a> | 
+            <a href="https://instagram.com" target="_blank">Instagram</a> | 
+            <a href="https://twitter.com" target="_blank">Twitter</a>
+        </div>
+    </footer>
+
+</body>
+</html>
